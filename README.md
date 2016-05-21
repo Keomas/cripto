@@ -1,0 +1,2 @@
+# cripto
+criptografia simetrica(paa)

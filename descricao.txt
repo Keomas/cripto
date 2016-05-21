@@ -1,0 +1,39 @@
+A empresa de tecnologia Poxim Tech está aplicando
+técnicas de criptografia em todos os seus sistemas de
+transmissão de dados, visando para proteger os
+dados de acessos não autorizados
+
+Para verificar as características dos algoritmos
+rapidamente, sem necessidade de aritmética de
+precisão arbitrária, são utilizadas chaves privadas e
+públicas com tamanho máximo de 32 bits
+A criptografia simétrica utilizada é baseada no
+gerador binário G com chave privada de 32 bits, com
+fatores de chave M = 1103515245 e D = 12345
+Para garantir o sigilo das chaves privadas utilizadas
+entre as partes A e B é utilizado o método de
+Diffie-Hellman para a troca de chaves
+As mensagens de texto possuem somente símbolos
+com códigos ASCII entre 33 e 126, com tamanho
+máximo de 1000 caracteres
+
+Formato do arquivo de entrada:
+
+A [a]
+B [b]
+DH [p] [g]
+#[NM]
+[M1]
+...
+[Mn]
+
+Formato do arquivo de saída:
+
+São exibidas as mensagens recebidas e enviadas
+pelas partes no canal de comunicação, de forma
+alternada, com identificação da origem e do destino
+
+A->B: 25
+B->A: 84
+A->B: 37 181 39 62 104 241
+B->A: 63 185
